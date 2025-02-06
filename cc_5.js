@@ -122,3 +122,12 @@ let applyDiscount = function(price, discount = 0.1) {
 
 console.log("Disocunted price $",applyDiscount(500));
 // logged the discounted price
+
+
+// task 10
+const calculatePoints = purchaseAmount => purchaseAmount / 10;
+//made an arrow functions calculatepoints that takes 1 point for ever $10 dollars spent
+
+let points = calculatePoints(250); //delcared amount spent
+console.log(`Earned points: ${points}`);
+//logged points earned
