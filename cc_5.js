@@ -72,3 +72,16 @@ let availableProducts = inventory.filter(quantity => quantity > 0);
 
 console.log("Available Products:", availableProducts); 
 // logged available products (ones that are NOT 0)
+
+
+
+// Task 6 - Revenue Calculation
+
+let sales = [500, 300, 200, 400];
+//declared an array called sales
+
+let totalRevenue = sales.reduce((total, sale) => total + sale, 0);
+//used the reduce method to calculate the total revenue 
+
+console.log("Total revenue:" , totalRevenue); 
+// logged the total revenue 
