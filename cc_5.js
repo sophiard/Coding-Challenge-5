@@ -96,3 +96,19 @@ let findCustomer = customers.find(customer => customer === "Charlie");
 
 console.log("Customer located:", findCustomer);
 // logged customer that was found 
+
+
+// Task 8 - Tax Calculation
+function calculateTax(amount, taxRate) {
+  return amount * taxRate;
+}
+//I made a fucntion that calcualte tax on amount and rate
+
+let amount = 500; // declared ana maount
+let taxRate = 0.10; // declared 10% tax rate 
+
+let taxAmount = calculateTax(amount, taxRate);
+// Stored the tax amount
+
+console.log(`Tax Amount: $${taxAmount}`); 
+// logged the tax amount 
