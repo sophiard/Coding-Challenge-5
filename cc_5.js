@@ -60,3 +60,15 @@ let discountedPrices = prices.map(price => price * 0.9);
 console.log("orininal prices:", prices)
 console.log("Discounted Prices:", discountedPrices);
 //logged discounted prices 
+
+
+//Task 5 - Product Availability
+
+let inventory = [5, 0, 12, 8, 0];
+//declared an array inventory
+
+let availableProducts = inventory.filter(quantity => quantity > 0);
+//used filter method to remove a product with 0 stock
+
+console.log("Available Products:", availableProducts); 
+// logged available products (ones that are NOT 0)
