@@ -112,3 +112,13 @@ let taxAmount = calculateTax(amount, taxRate);
 
 console.log(`Tax Amount: $${taxAmount}`); 
 // logged the tax amount 
+
+// Task 9 - Discount Application.
+let applyDiscount = function(price, discount = 0.1) { 
+  return price * (1 - discount); 
+};
+//declared a function expression applydiscount 
+//calculated the disocunt price 
+
+console.log("Disocunted price $",applyDiscount(500));
+// logged the discounted price
