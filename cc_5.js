@@ -27,3 +27,23 @@ console.log("display order:", order.displayOrder());
 //loggging order and display order 
 
 // Declaring an inventory object
+
+
+// Task 3 - Shopping Cart
+
+let cartItems = ["strawberries", "lemons", "muffins"];
+
+cartItems.push("bread");
+// added new product using push
+
+cartItems.pop();
+//removed last items using the pop method 
+
+cartItems.unshift("Pepsi");
+// added item to the begining of the array using unshift
+
+cartItems.shift();
+// removed first item from list using shift 
+
+console.log("Final array of CartItems:", cartItems);
+//logged the final array
